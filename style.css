@@ -170,49 +170,355 @@
     }
     main section.two{
         width: 430px;
-        height: 180px;
+        height: 240px;
     }
     div.main-2{
-        width: 430px;
-        height: 140px;
+        width: 320px;
+        height: 200px;
     }
     div.main-2-arrow-container-1, div.main-2-arrow-container-2{
-        width: 50px;
-        height: 140px;
+        width: 60px;
+        height: 200px;
     }
-    button.prev, button.next{
-        width: 18px;
-        height: 18px;
-        border: 1px solid #DB3138;
+    button#prev, button#next{
+        width: 40px;
+        height: 40px;
     }
     img.main-2-arrow-1, img.main-2-arrow-2{
-        width: 4px;
+        width: 10px;
     }
     div.slider-container{
-        width: 320px;
-        height: 140px;
+        width: 180px;
+        height: 200px;
     }
     div.slider{
-        width: 320px;
-        height: 140px;
+        width: 600px;
+        height: 200px;
     }
     div.main-2-img-container-1, div.main-2-img-container-2, div.main-2-img-container-3{
-        width: 100px;
-        height: 140px;
-        background-size: 120px;
-        background-position: top;
+        width: 200px;
+        height: 200px;
+        background-size: 180px;
     }
     div.main-2-img-wall{
-        width: 80px;
-        height: 20px;
+        width: 160px;
+        height: 40px;
+        margin-top: 0px;
+        position: relative;
+        top: 35px;
+        right: 10px;
+        z-index: 0;
     }
     p.main-2-img-text{
+        width: 160px;
+        height: 100px;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.5px;
+        z-index: 1;
+        position: relative;
+        right: 10px;
+        top: 40px;
+    }
+    section.three{
+        width: 430px;
+        height: 1350px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
+    div.main-3-con{
+        width: 320px;
+        height: 1350px;
+        margin-top: 32px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
+    div.main-3-textwalls{
+        width: 320px;
+        height: 860px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.main-3-textwall-1{
+        width: 320px;
+        height: 220px;
+    }
+    div.main-3-textwall-2{
+        width: 320px;
+        height: 250px;
+    }
+    div.main-3-textwall-3{
+        width: 320px;
+        height: 160px;
+    }
+    div.main-3-slider-and-img{
+        width: 320px;
+        height: 440px;
+    }
+    div.main-3-img-con{
+        width: 320px;
+        height: 277.24px;
+    }
+    div.main-3-img{
+        width: 320px;
+        height: 277.24px;
+    }
+    div.main-3-slider{
+        width: 80px;
+        height: 160px;
+    }
+    div.main-3-slider-con{
+        width: 320px;
+        height: 120px;
+    }
+    div.main-3-slider-text{
+        width: 160px;
+        height: 160px;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.main-3-textwall-text{
+        width: 240px;
+    }
+    div.main-3-textwall-img-2{
+        width: 80px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    section.four{
+        width: 430px;
+        height: 750px;
+    }
+    div.main-4-inside{
+        width: 400px;
+        height: 750px;
+    }
+    div.main-4-service-con{
+        height: 80px;
+    }
+    p.main-4-button-off, p.main-4-button-on{
+        width: 150px;
+        height: 50px;
+    }
+    div.main-4-button-con{
+        width: 400px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    div.main-4-img-con{
+        height: 60px;
+    }
+    div.main-4-things{
+        width: 400px;
+        height: 420px;
+    }
+    div.main-4-things-con{
+        height: 420px;
+        width: 90px;
+    }
+    div.main-4-things-img-con{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        margin-top: 0px;
+    }
+    #polish{
+        height: 40px;
+    }
+    #list{
+        width: 40px;
+    }
+    #water{
+        width: 50px;
+    }
+    #microphone{
+        width: 45px;
+    }
+    div.main-4-things-heading-con, .p.main-4-things-heading-text{
+        width: 80px;
+        height: 60px;
+        font-size: 20px;
+    }
+    div.main-4-things-text-con, p.main-4-things-text{
+        width: 80px;
+        height: 200px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+    }
+    div.main-4-things-button-con{
+        width: 90px;
+        height: 40px;
+    }
+    button.main-4-things-button{
         width: 80px;
         height: 40px;
-        font-size: 8px;
-        line-height: 8px;
-        letter-spacing: 0;
-        margin-top: -10px;
+    }
+    section.five{
+        width: 430px;
+        height: 1420px;
+    }
+    div.main-5-con{
+        width: 320px;
+        height: 1350px;
+        margin-top: 32px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
+    div.main-5-slider-and-img{
+        width: 320px;
+        height: 440px;
+    }
+    div.main-5-slider-con{
+        width: 320px;
+        height: 160px;
+    }
+    div.main-5-img-con{
+        width: 320px;
+        height: 277.24px;
+    }
+    div.main-5-info-img{
+        height: 80px;
+        width: 320px;
+    }
+    div.main-5-slider-arrow-con{
+        height: 160px;
+    }
+    div.main-5-img{
+        width: 320px;
+        height: 277.24px;
+    }
+    img#main-5-img{
+        width: 320px;
+        height: 277.24px;
+    }
+    div.main-5-info-img-text{
+        width: 320px;
+        height: 100px;
+        align-items: start;
+    }
+    div.main-5-slider-text-con{
+        width: 160px;
+        height: 160px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    div.main-5-info{
+        width: 320px;
+        height: 900px;
+    }
+    div.main-5-info-con{
+        width: 320px;
+        height: 228px;
+    }
+    div.main-5-info-text-con{
+        width: 240px;
+    }
+    div.main-5-info-img-con{
+        justify-content: start;
+    }
+    div.main-5-info-text{
+        height: 128px;
+    }
+    section.six{
+        width: 430px;
+        height: 380px;
+    }
+    div.main-6-con{
+        height: 380px;
+    }
+    div.main-6-img{
+        height: 80px;
+    }
+    img.main-6-group-normal{
+        height: 80px;
+    }
+    div.main-6-group-normal, div.main-6-group-abnormal{
+        height: 80px;
+    }
+    footer.footer{
+        height: 700px;
+        width: 430px;
+    }
+    div.footer-con{
+        height: 700px;
+    }
+    div.footer-section-1{
+        width: 320px;
+        height: 560px;
+        justify-content: start;
+        margin-top: 40px;
+    }
+    div.footer-section-1-text{
+        width: 320px;
+        height: 100px;
+        text-align: center;
+    }
+    div.footer-section-1-img{
+        height: 80px;
+    }
+    input#name, input#phone{
+        width: 130px;
+    }
+    div.footer-section-1-button-stuff{
+        flex-wrap: wrap;
+    }
+    div.footer-section-1-question-social{
+        height: 170px;
+    }
+    div.footer-section-1-button-con{
+        width: 320px;
+        height: 60px;
+        text-align: center;
+    }
+    div.footer-section-1-stuff{
+        width: 320px;
+        align-items: center;
+        height: 40px;
+        margin-top: 14px;
+    }
+    div.footer-section-2{
+        height: 100px;
+        width: 430px;
+    }
+    div.footer-section-2-con{
+        height: 100px;
+        width: 400px;
+    }
+    div.footer-section-2-copyright{
+        height: 100px;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.footer-section-2-links{
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a.footer-section-2-link p{
+        font-size: 20px;
+        text-align: center;
+    }
+    #left{
+        text-align: start;
+    }
+    #right{
+        text-align: end;
     }
 }
 header{
